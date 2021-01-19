@@ -1,0 +1,30 @@
+.iframeContainer {
+  padding: 30px;
+  border: 1px solid #f3f3f3;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 70px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 20px;
+}

@@ -4,7 +4,7 @@ var width = parseInt(d3.select("#scatter").style("width"));
 
 var height = width - width / 3.5;
 
-var margin = 10;
+var margin = 5;
 
 
 var label_area = 110;
@@ -96,7 +96,7 @@ function y_text_refresh() {
 }
 y_text_refresh();
 
-/
+
 // 1. Obesity
 yText
   .append("text")
@@ -127,7 +127,7 @@ yText
 
 
 // Import our CSV 
-d3.csv("../data/data.csv").then(function(data) {
+d3.csv("assets/data/data.csv").then(function(data) {
   visualize(data);
 });
 
